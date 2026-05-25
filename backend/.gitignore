@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables — never commit
+.env
+
+# Generated data files — upload to S3, don't commit
+data/*.csv
+data/*.json
+
+# Lambda deployment packages
+*.zip

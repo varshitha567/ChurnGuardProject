@@ -1,0 +1,26 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "AI-powered churn prevention pipeline using Claude agents and AWS"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    # AWS
+    "boto3",
+    # Data
+    "pandas",
+    "numpy",
+    "faker",
+    # LangChain / Agents
+    "langchain",
+    "langgraph",
+    "langchain-openai",
+    "openai",
+    # API
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    # Utilities
+    "python-dotenv",
+    "httpx",
+]
