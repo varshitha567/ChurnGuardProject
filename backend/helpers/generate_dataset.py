@@ -10,6 +10,12 @@ np.random.seed(42)
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "customer_data.csv")
 
+
+
+
+
+
+
 STATES = [
     "California", "Texas", "Florida", "New York", "Illinois",
     "Pennsylvania", "Ohio", "Georgia", "North Carolina", "Michigan",
