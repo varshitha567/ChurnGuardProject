@@ -22,6 +22,7 @@ STATES = [
 ]
 
 
+
 SEGMENTS = ["Premium", "Standard", "Basic"]
 CARD_TYPES = ["Cashback", "Rewards", "Travel", "Basic"]
 PAYMENT_HISTORY = ["Excellent", "Good", "Fair", "Poor"]
