@@ -20,6 +20,8 @@ STATES = [
     "California", "Texas", "Florida", "New York", "Illinois",
     "Pennsylvania", "Ohio", "Georgia", "North Carolina", "Michigan",
 ]
+
+
 SEGMENTS = ["Premium", "Standard", "Basic"]
 CARD_TYPES = ["Cashback", "Rewards", "Travel", "Basic"]
 PAYMENT_HISTORY = ["Excellent", "Good", "Fair", "Poor"]
